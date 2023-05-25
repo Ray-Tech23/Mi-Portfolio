@@ -1,0 +1,61 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:black; position:relative; height:100vh; margin:0; padding:0; display:flex;
+}
+.a {
+    position: absolute; border-radius:100%; padding:3%; background:transparent; border:2px solid red;
+    top:50%; left:58%;
+}
+.b {
+    position: absolute; border-radius:100%; padding:3%; background:transparent; border:2px solid white;
+    top:50%; left:61%;
+}
+.c {
+    position: absolute; border-radius:100%; padding:3%; background:transparent; border:2px solid red;
+    top:50%; left:63%;
+}
+
+.head-left {
+    position:absolute; margin:2% 0 0 7%; color:red; letter-spacing:10px; font-weight:bolder; 
+    font-size:20px
+}
+
+.main-middle {
+    position:absolute; display:flex; margin:7% 2% 2% 7%;
+}
+.main-middle .nice {
+    color:white; font-size:75px; margin-right:60px; letter-spacing:10px; word-spacing:5px;
+}
+
+img {
+    width:300px; object-fit:cover; height:400px; margin-top:-25%
+}
+
+hr {
+    position:absolute; color:red; top:66%; width:90%; left:50%; transform:translate(-50%, -50%);
+    text-align:center;
+}
+
+.almost-bottom {
+    position:absolute; color:red; top:69%; display:flex; margin:0% 2% 2% 7%
+}
+.almost-bottom .almost {
+    color:white; font-size:40px; letter-spacing:10px; word-spacing:5px;
+    margin-bottom:20px;
+}
+.contact {
+    background-color:white; height:50px; padding:10px; border-radius:10px; border:1px solid white;
+    width:150px; font-size:20px; font-weight:bolder; color:red; margin-top:100px; margin-left:20px;
+}
+.contact:hover {
+    background-color:red; border:1px solid red; color:white; cursor:pointer;
+}
+
+.final-bottom {
+    position:absolute; color:red; top:75%; left:48%; display:grid; 
+    grid-template-columns:auto auto auto auto auto;
+}
+.tech {
+    margin-left:20px; color:white; font-size:25px; text-shadow:5px 5px 15px red;font-weight:bolder;
+    letter-spacing:2px; text-decoration:underline white;
+}
